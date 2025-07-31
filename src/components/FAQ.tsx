@@ -7,6 +7,10 @@ export const FAQ = () => {
 
     const faqs = [
         {
+            question: "How many accounts to retweet my posts?",
+            answer: "Multiple verified accounts with a huge following will retweet your posts to ensure maximum reach and engagement.",
+        },
+        {
             question: "Do you use real accounts for retweets?",
             answer: "Yes, absolutely! All our retweets come from genuine, active X accounts with real followers. We have a network of verified users who engage with content naturally. No bots or fake accounts are ever used.",
         },

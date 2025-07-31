@@ -38,7 +38,7 @@ export const WhyChooseUs = () => {
             ),
             title: "Fast Delivery",
             description:
-                "See results within 24-48 hours. Our network of verified accounts ensures quick and reliable delivery.",
+                "See results instantly. Our network of verified accounts ensures quick instant and reliable delivery.",
             bgColor: "bg-[#F9ECE4]",
             hoverColor: "hover:bg-orange-100",
         },

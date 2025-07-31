@@ -14,15 +14,15 @@ export const HowItWorks = () => {
         },
         {
             number: "03",
-            title: "Send Tweet Link",
+            title: "Join our Network",
             description:
-                "Share the link to your X post that you want to boost with authentic retweets.",
+                "Start sharing your links to your X post that you want to boost with authentic retweets.",
         },
         {
             number: "04",
             title: "We Promote",
             description:
-                "Our network of verified accounts starts retweeting your content within 24 hours.",
+                "Our network of verified accounts starts retweeting your content immediately.",
         },
         {
             number: "05",
