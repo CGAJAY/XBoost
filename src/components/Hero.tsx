@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const scrollToPricing = () => {
     const pricingSection = document.getElementById("pricing");
@@ -105,6 +106,18 @@ export const Hero = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                {/* Image Section */}
+                <div className="mt-20">
+                    <Image
+                        src="/hero2.jpg"
+                        alt="Descriptive Alt Text"
+                        className="w-full"
+                        width={800}
+                        height={450}
+                        priority
+                    />
                 </div>
             </div>
         </section>

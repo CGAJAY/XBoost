@@ -18,6 +18,8 @@ export const WhyChooseUs = () => {
             title: "Real Engagement",
             description:
                 "All retweets come from genuine, active X accounts with real followers. No bots, no fake engagement.",
+            bgColor: "bg-[#FDFAE7]",
+            hoverColor: "hover:bg-yellow-100",
         },
         {
             icon: (
@@ -37,6 +39,8 @@ export const WhyChooseUs = () => {
             title: "Fast Delivery",
             description:
                 "See results within 24-48 hours. Our network of verified accounts ensures quick and reliable delivery.",
+            bgColor: "bg-[#F9ECE4]",
+            hoverColor: "hover:bg-orange-100",
         },
         {
             icon: (
@@ -56,11 +60,13 @@ export const WhyChooseUs = () => {
             title: "Trackable Results",
             description:
                 "Monitor your growth with detailed analytics. Track engagement, reach, and follower growth in real-time.",
+            bgColor: "bg-[#F1F6F5]",
+            hoverColor: "hover:bg-green-100",
         },
     ];
 
     return (
-        <section className="py-20 bg-white">
+        <section className="py-10 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -76,7 +82,7 @@ export const WhyChooseUs = () => {
                     {features.map((feature, index) => (
                         <div
                             key={index}
-                            className="text-center p-8 rounded-2xl bg-gray-50 hover:bg-gray-100 transition-colors">
+                            className={`text-center p-8 rounded-2xl transition-colors ${feature.bgColor} ${feature.hoverColor}`}>
                             <div className="inline-flex items-center justify-center w-16 h-16 bg-black text-white rounded-2xl mb-6">
                                 {feature.icon}
                             </div>

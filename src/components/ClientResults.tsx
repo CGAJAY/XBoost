@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { UserCircle } from "lucide-react";
 
 export const ClientResults = () => {
@@ -8,27 +7,30 @@ export const ClientResults = () => {
             handle: "@sarahbuilds",
             content:
                 "Went from 500 to 5K followers in 2 months! The retweets felt completely natural and brought real engagement to my content.",
-
             verified: true,
             stats: "2,847 retweets • 156K impressions",
+            bgColor: "bg-[#F1F5F9]",
+            hoverColor: "hover:bg-blue-50",
         },
         {
             name: "Marcus Rodriguez",
             handle: "@techfounder",
             content:
                 "Best investment for my startup's social presence. The quality of accounts that retweeted was impressive - real people, not bots.",
-
             verified: true,
             stats: "1,923 retweets • 89K impressions",
+            bgColor: "bg-[#F8F8F8]",
+            hoverColor: "hover:bg-gray-100",
         },
         {
             name: "Emma Thompson",
             handle: "@creativemind",
             content:
                 "Finally found a service that delivers what it promises. My posts now regularly get 10x more engagement than before.",
-
             verified: false,
             stats: "3,156 retweets • 203K impressions",
+            bgColor: "bg-[#F8F8F8]",
+            hoverColor: "hover:bg-gray-100",
         },
     ];
 
@@ -49,11 +51,10 @@ export const ClientResults = () => {
                     {testimonials.map((testimonial, index) => (
                         <div
                             key={index}
-                            className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                            className={`rounded-2xl p-6 transition-all duration-200 ${testimonial.bgColor} ${testimonial.hoverColor} hover:shadow-md`}>
                             {/* Tweet-style header */}
                             <div className="flex items-center mb-4">
                                 <UserCircle className="w-12 h-12 text-gray-400 mr-3" />
-
                                 <div className="flex-1">
                                     <div className="flex items-center">
                                         <h4 className="font-semibold text-gray-900">

@@ -7,7 +7,7 @@ import { ClientResults } from "@/components/ClientResults";
 import { FAQ } from "@/components/FAQ";
 import { ContactCTA } from "@/components/ContactCTA";
 
-export default function Home() {
+export default function HomePage() {
     return (
         <>
             <Hero />

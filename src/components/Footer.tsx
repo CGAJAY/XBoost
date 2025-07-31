@@ -12,7 +12,7 @@ export const Footer = () => {
                             className="text-2xl font-bold mb-4 block">
                             XBoost
                         </Link>
-                        <p className="text-gray-400 mb-6 max-w-md">
+                        <p className="text-gray-200 mb-6 max-w-md">
                             Grow your X presence with authentic retweets from
                             real accounts. Boost engagement, increase
                             visibility, and build credibility.
@@ -20,7 +20,7 @@ export const Footer = () => {
                         <div className="flex space-x-4">
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-white transition-colors">
+                                className="text-gray-200 hover:text-white transition-colors">
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -30,7 +30,7 @@ export const Footer = () => {
                             </a>
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-white transition-colors">
+                                className="text-gray-200 hover:text-white transition-colors">
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -40,7 +40,7 @@ export const Footer = () => {
                             </a>
                             <a
                                 href="#"
-                                className="text-gray-400 hover:text-white transition-colors">
+                                className="text-gray-200 hover:text-white transition-colors">
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
@@ -54,7 +54,7 @@ export const Footer = () => {
                     {/* Services */}
                     <div>
                         <h4 className="font-semibold mb-4">Services</h4>
-                        <ul className="space-y-2 text-gray-400">
+                        <ul className="space-y-2 text-gray-200">
                             <li>
                                 <Link
                                     href="/pricing"
@@ -82,7 +82,7 @@ export const Footer = () => {
                     {/* Company */}
                     <div>
                         <h4 className="font-semibold mb-4">Company</h4>
-                        <ul className="space-y-2 text-gray-400">
+                        <ul className="space-y-2 text-gray-200">
                             <li>
                                 <Link
                                     href="/about"
@@ -110,7 +110,7 @@ export const Footer = () => {
                     {/* Legal */}
                     <div>
                         <h4 className="font-semibold mb-4">Legal</h4>
-                        <ul className="space-y-2 text-gray-400">
+                        <ul className="space-y-2 text-gray-200">
                             <li>
                                 <Link
                                     href="/privacy"
@@ -136,24 +136,25 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-gray-400 text-sm">
-                        © 2024 XBoost. All rights reserved.
+                <div className=" mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                    <p className="text-gray-200 text-sm">
+                        © {new Date().getFullYear()} XBoost. All rights
+                        reserved.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <Link
                             href="/privacy"
-                            className="text-gray-400 hover:text-white text-sm transition-colors">
+                            className="text-gray-200 hover:text-white text-sm transition-colors">
                             Privacy
                         </Link>
                         <Link
                             href="/terms"
-                            className="text-gray-400 hover:text-white text-sm transition-colors">
+                            className="text-gray-200 hover:text-white text-sm transition-colors">
                             Terms
                         </Link>
                         <Link
                             href="/contact"
-                            className="text-gray-400 hover:text-white text-sm transition-colors">
+                            className="text-gray-200 hover:text-white text-sm transition-colors">
                             Support
                         </Link>
                     </div>
