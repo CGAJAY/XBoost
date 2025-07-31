@@ -2,13 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-
-const scrollToPricing = () => {
-    const pricingSection = document.getElementById("pricing");
-    if (pricingSection) {
-        pricingSection.scrollIntoView({ behavior: "smooth" });
-    }
-};
+import Link from "next/link";
 
 export const Hero = () => {
     return (
@@ -56,12 +50,11 @@ export const Hero = () => {
                         verified accounts. Get more visibility, followers, and
                         credibility with our proven retweet services.
                     </p>
-
-                    <button
-                        onClick={scrollToPricing}
-                        className="bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors shadow-lg">
+                    <Link
+                        href="/pricing"
+                        className="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors shadow-lg">
                         View Packages
-                    </button>
+                    </Link>
                 </div>
 
                 {/* Client Logos */}
