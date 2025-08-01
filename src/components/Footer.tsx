@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Mail, Send, Twitter } from "lucide-react";
 
 export const Footer = () => {
     return (
@@ -44,6 +45,38 @@ export const Footer = () => {
                                     className="hover:text-white transition-colors">
                                     Client Results
                                 </Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Connect */}
+                    <div>
+                        <h4 className="font-semibold mb-4">Connect</h4>
+                        <ul className="space-y-3 text-gray-200">
+                            <li>
+                                <a
+                                    href="https://t.me/Jim_Njue"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 hover:text-white transition-colors">
+                                    <Send size={18} /> @Jim_Njue
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="mailto:boostyourx@gmail.com"
+                                    className="flex items-center gap-2 hover:text-white transition-colors">
+                                    <Mail size={18} /> boostyourx@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://x.com/jimNjue_"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 hover:text-white transition-colors">
+                                    <Twitter size={18} /> @jimNjue_
+                                </a>
                             </li>
                         </ul>
                     </div>

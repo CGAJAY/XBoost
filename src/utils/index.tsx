@@ -50,25 +50,7 @@ export const packages = [
     },
 ];
 
-export const handlePackageClick = (packageData: (typeof packages)[0]) => {
-    const original = packageData.originalPrice
-        ? ` (discounted from ${packageData.originalPrice})`
-        : "";
-
-    const message = `Hi, I'm interested in the ${packageData.name} package on XBoost.
-
-Package Details:
-- Package: ${packageData.name}
-- Retweets: ${packageData.retweets}
-- Price: ${packageData.price}${original}
-
-My X/Twitter Post URL: [Please paste your tweet link here]
-
-Please send payment instructions.`;
-
-    const telegramUsername = "@Jim_Njue"; // Replace with your Telegram username
-    const encodedMessage = encodeURIComponent(message);
-    const telegramLink = `https://t.me/${telegramUsername}?text=${encodedMessage}`;
-
+export const handlePackageClick = () => {
+    const telegramLink = "https://t.me/Jim_Njue";
     window.open(telegramLink, "_blank");
 };

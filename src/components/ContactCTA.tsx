@@ -27,7 +27,8 @@ export const ContactCTA = () => {
                 <div className="mt-12 pt-8  ">
                     <p className="text-black mb-4">Still have questions?</p>
                     <a
-                        href="mailto:hello@xboost.com"
+                        href="https://t.me/Jim_Njue"
+                        rel="noopener noreferrer"
                         className="text-black transition-colors font-medium">
                         Get in touch with our team
                         <ArrowRight className="inline-block ml-1" />

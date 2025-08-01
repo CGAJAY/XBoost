@@ -28,7 +28,7 @@ export const Pricing = () => {
                             className={`relative bg-white rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer transform hover:scale-105 ${
                                 pkg.popular ? "ring-2 ring-black scale-105" : ""
                             }`}
-                            onClick={() => handlePackageClick(pkg)}>
+                            onClick={() => handlePackageClick()}>
                             {pkg.popular && (
                                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-2 rounded-b-lg text-sm font-semibold z-10">
                                     Most Popular
@@ -37,11 +37,6 @@ export const Pricing = () => {
 
                             {/* Package Image */}
                             <div className="relative overflow-hidden">
-                                {/* <Image
-                                    src={pkg.image}
-                                    alt={pkg.name}
-                                    className="w-full h-48 object-cover hover:opacity-90 transition-opacity"
-                                /> */}
                                 <Image
                                     src={pkg.image}
                                     alt={pkg.name}

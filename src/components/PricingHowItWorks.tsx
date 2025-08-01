@@ -54,7 +54,7 @@ const PricingHowItWorks = () => {
                         package tailored to your exact needs and budget.
                     </p>
                     <a
-                        href="https://t.me/xboostsupport"
+                        href="https://t.me/Jim_Njue"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors">

@@ -32,7 +32,7 @@ Please respond to this inquiry at your earliest convenience.
 
 Thank you!`);
 
-        const mailtoLink = `mailto:hello@xboost.com?subject=${subject}&body=${body}`;
+        const mailtoLink = `mailto:boostyourx@gmail.com?subject=${subject}&body=${body}`;
         window.location.href = mailtoLink;
     };
 
@@ -136,6 +136,149 @@ Thank you!`);
             <section className="py-20 bg-gray-50">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid lg:grid-cols-2 gap-16">
+                        {/* Contact Information */}
+                        <div>
+                            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                                Ways to Reach Us
+                            </h2>
+
+                            <div className="space-y-8">
+                                {/* Email */}
+                                <div className="flex items-start">
+                                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                        <svg
+                                            className="w-6 h-6 text-gray-600"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-gray-900 mb-2">
+                                            Email
+                                        </h3>
+                                        <p className="text-gray-600 mb-2">
+                                            For all inquiries and support
+                                        </p>
+                                        <a
+                                            href="mailto:boostyourx@gmail.com"
+                                            className="text-black font-medium hover:underline">
+                                            boostyourx@gmail.com
+                                        </a>
+                                    </div>
+                                </div>
+
+                                {/* X/Twitter */}
+                                <div className="flex items-start">
+                                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                        <svg
+                                            className="w-6 h-6 text-gray-600"
+                                            fill="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-gray-900 mb-2">
+                                            X (Twitter) DM
+                                        </h3>
+                                        <p className="text-gray-600 mb-2">
+                                            Quick questions and real-time
+                                            support
+                                        </p>
+                                        <a
+                                            href="https://x.com/jimNjue_"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-black font-medium hover:underline">
+                                            @jimNjue_
+                                        </a>
+                                    </div>
+                                </div>
+
+                                {/* Telegram */}
+                                <div className="flex items-start">
+                                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                        <svg
+                                            className="w-6 h-6 text-gray-600"
+                                            fill="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-gray-900 mb-2">
+                                            Telegram
+                                        </h3>
+                                        <p className="text-gray-600 mb-2">
+                                            Secure messaging and file sharing
+                                        </p>
+                                        <a
+                                            href="https://t.me/Jim_Njue"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-black font-medium hover:underline">
+                                            @Jim_Njue
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Response Time Info */}
+                            <div className="mt-12 p-6 bg-gray-50 rounded-2xl">
+                                <h3 className="font-semibold text-gray-900 mb-3 flex items-center">
+                                    <svg
+                                        className="w-5 h-5 text-green-500 mr-2"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        />
+                                    </svg>
+                                    Response Time
+                                </h3>
+                                <p className="text-gray-600 text-sm leading-relaxed">
+                                    We typically respond to all inquiries within{" "}
+                                    <strong>instantly</strong> . For urgent
+                                    matters, please use Telegram for faster
+                                    response.
+                                </p>
+                            </div>
+
+                            {/* Guarantee */}
+                            <div className="mt-6 p-6 bg-black text-white rounded-2xl">
+                                <h3 className="font-semibold mb-3 flex items-center">
+                                    <svg
+                                        className="w-5 h-5 text-green-400 mr-2"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        />
+                                    </svg>
+                                    100% Satisfaction Guarantee
+                                </h3>
+                                <p className="text-gray-300 text-sm">
+                                    Not happy with your results? We offer a full
+                                    refund within 7 days of order completion.
+                                    Your success is our priority.
+                                </p>
+                            </div>
+                        </div>
                         {/* Contact Form */}
                         <div className="bg-white rounded-3xl p-8 shadow-lg">
                             <h2 className="text-3xl font-bold text-gray-900 mb-2">
@@ -312,150 +455,6 @@ Thank you!`);
                                     email.
                                 </p>
                             </form>
-                        </div>
-
-                        {/* Contact Information */}
-                        <div>
-                            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                                Other Ways to Reach Us
-                            </h2>
-
-                            <div className="space-y-8">
-                                {/* Email */}
-                                <div className="flex items-start">
-                                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                                        <svg
-                                            className="w-6 h-6 text-gray-600"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={2}
-                                                d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h3 className="font-semibold text-gray-900 mb-2">
-                                            Email
-                                        </h3>
-                                        <p className="text-gray-600 mb-2">
-                                            For all inquiries and support
-                                        </p>
-                                        <a
-                                            href="mailto:hello@xboost.com"
-                                            className="text-black font-medium hover:underline">
-                                            hello@xboost.com
-                                        </a>
-                                    </div>
-                                </div>
-
-                                {/* X/Twitter */}
-                                <div className="flex items-start">
-                                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                                        <svg
-                                            className="w-6 h-6 text-gray-600"
-                                            fill="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h3 className="font-semibold text-gray-900 mb-2">
-                                            X (Twitter) DM
-                                        </h3>
-                                        <p className="text-gray-600 mb-2">
-                                            Quick questions and real-time
-                                            support
-                                        </p>
-                                        <a
-                                            href="https://x.com/xboostgrowth"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-black font-medium hover:underline">
-                                            @xboostgrowth
-                                        </a>
-                                    </div>
-                                </div>
-
-                                {/* Telegram */}
-                                <div className="flex items-start">
-                                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                                        <svg
-                                            className="w-6 h-6 text-gray-600"
-                                            fill="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h3 className="font-semibold text-gray-900 mb-2">
-                                            Telegram
-                                        </h3>
-                                        <p className="text-gray-600 mb-2">
-                                            Secure messaging and file sharing
-                                        </p>
-                                        <a
-                                            href="https://t.me/Jim_Njue"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-black font-medium hover:underline">
-                                            @Jim_Njue
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Response Time Info */}
-                            <div className="mt-12 p-6 bg-gray-50 rounded-2xl">
-                                <h3 className="font-semibold text-gray-900 mb-3 flex items-center">
-                                    <svg
-                                        className="w-5 h-5 text-green-500 mr-2"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                                        />
-                                    </svg>
-                                    Response Time
-                                </h3>
-                                <p className="text-gray-600 text-sm leading-relaxed">
-                                    We typically respond to all inquiries within{" "}
-                                    <strong>instantly</strong> . For urgent
-                                    matters, please use Telegram for faster
-                                    response.
-                                </p>
-                            </div>
-
-                            {/* Guarantee */}
-                            <div className="mt-6 p-6 bg-black text-white rounded-2xl">
-                                <h3 className="font-semibold mb-3 flex items-center">
-                                    <svg
-                                        className="w-5 h-5 text-green-400 mr-2"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                        />
-                                    </svg>
-                                    100% Satisfaction Guarantee
-                                </h3>
-                                <p className="text-gray-300 text-sm">
-                                    Not happy with your results? We offer a full
-                                    refund within 7 days of order completion.
-                                    Your success is our priority.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>

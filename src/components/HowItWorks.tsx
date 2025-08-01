@@ -10,13 +10,13 @@ export const HowItWorks = () => {
             number: "02",
             title: "Get Payment Info",
             description:
-                "Receive secure payment instructions via email to complete your order.",
+                "Receive secure payment instructions via telegram to complete your order.",
         },
         {
             number: "03",
             title: "Join our Network",
             description:
-                "Start sharing your links to your X post that you want to boost with authentic retweets.",
+                "Start sharing your links to X posts that you need boosted",
         },
         {
             number: "04",
