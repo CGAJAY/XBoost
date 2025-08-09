@@ -41,12 +41,13 @@ export const TelegramPopup = () => {
                         className="rounded-full shadow-md"
                     />
                     <h2 className="text-lg font-semibold text-gray-800">
-                        Join Our Telegram Group
+                        Join our Telegram Community for free tips on growth &
+                        monetization on X.
                     </h2>
-                    <p className="text-sm text-gray-600">
+                    {/* <p className="text-sm text-gray-600">
                         Be the first to know about updates, exclusive offers,
                         and retweet boosts.
-                    </p>
+                    </p> */}
 
                     <a
                         href={TELEGRAM_GROUP_LINK}
